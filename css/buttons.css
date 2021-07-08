@@ -70,20 +70,20 @@
 
 
 #play {
-    background-image: url(../images/play.svg) ;
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/mfs-api-5e5f4.appspot.com/o/vplayer%2Fversion%2FUser%20interface%20design%2FDesign%20System%2Fplay.svg?alt=media&token=3d49746a-f945-4e7c-89d9-bc9c5ce58cfe) ;
 }
 
 #pause {
-    background-image: url(../images/pause.svg);
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/mfs-api-5e5f4.appspot.com/o/vplayer%2Fversion%2FUser%20interface%20design%2FDesign%20System%2Fpause.svg?alt=media&token=a673269d-58ea-4cae-8357-fa917adb9976);
 }
 
 #backward {
-    background-image: url(../images/-10.svg);
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/mfs-api-5e5f4.appspot.com/o/vplayer%2Fversion%2FUser%20interface%20design%2FDesign%20System%2F-10.svg?alt=media&token=7d47e120-f098-4ab4-b055-ba11e4abbb55);
 
 }
 
 #forward {
-    background-image: url(../images/+10.svg);
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/mfs-api-5e5f4.appspot.com/o/vplayer%2Fversion%2FUser%20interface%20design%2FDesign%20System%2F%2B10.svg?alt=media&token=c3a12f92-1cb6-40bb-8fa2-b6d55e9ee82c);
 }
 
 
