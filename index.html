@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>VPlayer</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="player">
+            <video id="video" poster="./images/poster.jpg" src="https://firebasestorage.googleapis.com/v0/b/mfs-api-5e5f4.appspot.com/o/The%20Information%20Revolution%20Episode.mp4?alt=media&token=d58276de-6f93-4319-abf7-d2667a830e53" width="400"></video>
+            <div class="player-overlay">
+                <h2 class="player-title">The Information Revolution</h2>
+                <div class="player-action">
+                    <button class="button" id="backward" aria-label="Retroceder dies segundos" title="Retroceder dies segundos"></button>
+                    <button class="button" id="play" aria-label="Reproducir" title="Reproducir"></button>
+                    <button class="button" hidden id="pause" aria-label="Pausar" title="Pausar"></button>
+                    <button class="button" id="forward" aria-label="Adelantar dies segundos" title="Adelantar dies segundos"></button>
+                </div>
+                <div class="player-progress">
+                    <input id="progress"  type="range" min="0" value="0" step="1">
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <script src="./js/index.js"></script>
+</body>
+
+</html>

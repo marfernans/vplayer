@@ -1,0 +1,92 @@
+.button {
+    inline-size: 32px;
+    block-size: 32px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.wrapper {
+    max-inline-size: 900px;
+    margin: auto;
+}
+
+.player {
+    margin-block-start: 100px;
+    position: relative;
+}
+
+.player video {
+    inline-size: 100%;
+    aspect-ratio: 16/9;
+    vertical-align: middle;
+    object-fit: cover;
+    
+}
+
+.player-title {
+    position: absolute;
+    color: #e2e2e2;
+    inset-block-start: 0;
+    inset-inline-start: 20px;
+}
+
+.player-action{
+    position: absolute;
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    gap: 16px;
+}
+
+.player-progress {
+    position: absolute;
+    inset-block-end: 0;
+    inset-inline: 0;
+    display: flex;
+    padding: 10px;
+}
+
+.player-progress input {
+    flex: 1;
+}
+
+.player-overlay {
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    transition: .5s opacity;
+}
+
+.player:hover .player-overlay {
+    opacity: 1;
+
+}
+
+.button:active {
+    transform: scale(.9);
+}
+
+
+#play {
+    background-image: url(../images/play.svg) ;
+}
+
+#pause {
+    background-image: url(../images/pause.svg);
+}
+
+#backward {
+    background-image: url(../images/-10.svg);
+
+}
+
+#forward {
+    background-image: url(../images/+10.svg);
+}
+
+
+
+
+
