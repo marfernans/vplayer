@@ -4,8 +4,8 @@
 <img width="120px"  src="https://raw.githubusercontent.com/no-te-rindas/logo/main/Logo/LeonidasEsteban-destello-envolvente-cuadrada.png" />
 </div>
 
-
 ##
+
 
 # VPlayer™
 
@@ -30,8 +30,6 @@
  
  ## Disclaimer
 
- 
-
 Si deseas tener una copia  de este proyecto en tu máquina local para propósitos de desarrollo y pruebas, lee las sigiente instruciones. 
  
  
@@ -45,17 +43,21 @@ Si deseas tener una copia  de este proyecto en tu máquina local para propósito
 
 ## Install
 
-
- Ház un fork desde github al [repositorio](https://github.com/OrigiMario/v-player) o puedes clonar en tu maquina local si ejecuta en su Interfaz de línea de comando
+ Ház un fork desde github al [repositorio](git@github.com:OrigiMario/vplayer.git) o puedes clonar en tu maquina local si ejecuta en su Interfaz de línea de comando
 ```git clone git@github.com:OrigiMario/v-player.git``` 
 
 
 Tecnologías y herramientas utilizadas para el desarrollo de VPlayer™
+
   - HTML
+  
   - CSS
+  
   - Javascript
 
+
 ## Credits
+
 Mario Fernandez S
 
 ## License
@@ -63,7 +65,6 @@ Este proyecto está bajo la Licencia (MIT License).
 
 
 ## Thanks
-
 
 Image: [Unsplash](https://unsplash.com/) 
 
