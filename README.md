@@ -43,7 +43,7 @@ Si deseas tener una copia  de este proyecto en tu máquina local para propósito
 
 ## Install
 
- Ház un fork desde github al [repositorio](git@github.com:OrigiMario/vplayer.git) o puedes clonar en tu maquina local si ejecuta en su Interfaz de línea de comando
+ Ház un fork desde github al [repositorio](git@github.com:origimario/vplayer.git) o puedes clonar en tu maquina local si ejecuta en su Interfaz de línea de comando
 ```git clone git@github.com:OrigiMario/v-player.git``` 
 
 
